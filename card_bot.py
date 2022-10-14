@@ -11,7 +11,7 @@ from faker import Faker
 
 bot = TeleBot(token='', parse_mode='html') # создание бота
 
-faker = Faker() # утилита для генерации номеров кредитных карт
+faker = Faker() # утилита для генерации фейковых номеров кредитных карт
 
 # объект клавиаутры
 card_type_keybaord = types.ReplyKeyboardMarkup(resize_keyboard=True)
